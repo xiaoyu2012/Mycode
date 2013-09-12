@@ -16,7 +16,7 @@ public class Main {
 			while(n != i) {
 				if(n % i == 0) {
 					System.out.print(i + "*");
-					e[i]++;
+					e[i]++;   //指数存放在e[i]中
 					n = n / i;
 				}
 				else
