@@ -16,7 +16,7 @@ public class Main {
 			while(n != i) {
 				if(n % i == 0) {
 					System.out.print(i + "*");
-					e[i]++;   //Ö¸Êý´æ·ÅÔÚe[i]ÖÐ
+					e[i]++;   //e[i]è¡¨ç¤ºiçš„æŒ‡æ•°
 					n = n / i;
 				}
 				else
