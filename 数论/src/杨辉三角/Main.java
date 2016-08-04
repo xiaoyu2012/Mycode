@@ -20,7 +20,7 @@ public class Main {
 				System.out.print(" ");
 			for(int j = 0; j <= i; j++)
 				System.out.print(c[i][j] + " ");	
-			System.out.println();
+			System.out.println("   ");
 			
 		}
 		in.close();
